@@ -29,7 +29,7 @@ def find_the_cheese(foods)
         # puts ("Match found element #{arr1} #{array1.index(arr1)} #{array2.index(arr2)}")
         #some code here to move to the next element in array 1 and array 2 and continue looping from there
       else
-
+        return nil
       end
     end
   end

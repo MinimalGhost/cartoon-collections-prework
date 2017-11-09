@@ -23,7 +23,7 @@ def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   foods.each do |food|
-    array2.each do |arr2|
+    cheese_types.each do |arr2|
       if (arr1==arr2)
         puts ("Match found element #{arr1} #{array1.index(arr1)} #{array2.index(arr2)}")
         #some code here to move to the next element in array 1 and array 2 and continue looping from there

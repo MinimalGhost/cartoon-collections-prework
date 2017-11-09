@@ -26,6 +26,6 @@ def find_the_cheese(foods)
       return "#{cheese}"
     end
   else
-
+    return nil
   end
 end

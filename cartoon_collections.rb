@@ -20,6 +20,7 @@ def long_planeteer_calls(long_calls)
 end
 
 def find_the_cheese(foods)
+  matches = []
   cheese_types = ["cheddar", "gouda", "camembert"]
   matches = foods & cheese_types
 

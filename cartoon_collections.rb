@@ -21,8 +21,12 @@ end
 
 def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  matches = foods & cheese_types
-  return matches.join('')
+
+  if matches = foods & cheese_types
+    return matches.join('')
+  else
+    return nil
+  end
   # foods.each do |food|
   #   cheese_types.each do |cheese|
   #     if (food == cheese)

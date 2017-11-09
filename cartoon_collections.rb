@@ -21,7 +21,9 @@ end
 
 def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  foods.each.with_index do |cheese, index|
-    
+  foods.eachdo |cheese|
+    if cheese_types.includes?(cheese)
+
+    else
   end
 end

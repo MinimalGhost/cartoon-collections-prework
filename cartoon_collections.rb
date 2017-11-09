@@ -26,7 +26,7 @@ def find_the_cheese(foods)
     cheese_types.each do |cheese|
       if (food == cheese)
         # return food
-        puts ("Match found element #{food} #{foods.index(food)} #{array2.index(arr2)}")
+        puts ("Match found element #{food} #{foods.index(food)} #{cheese_types.index(cheese)}")
         #some code here to move to the next element in array 1 and array 2 and continue looping from there
       else
         return nil

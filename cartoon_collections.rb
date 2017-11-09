@@ -25,4 +25,5 @@ def find_the_cheese(foods)
   matches.each do |cheese|
     return "#{cheese}"
   end
+  return nil
 end

@@ -22,6 +22,7 @@ end
 def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
   matches = foods & cheese_types
-
-
+  matches.each do |cheese|
+    return "#{cheese}"
+  end
 end
